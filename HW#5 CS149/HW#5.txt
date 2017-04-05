@@ -1,0 +1,35 @@
+Tester 1
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 1089
+Total Time Elapsed: 9103326ns
+Average time/op: 45ns
+
+Tester 2
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 298
+Total Time Elapsed: 50002009ns
+Average time/op: 250ns
+
+TesterSync
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 0
+Total Time Elapsed: 31690162ns
+Average time/op: 158ns
+
+TesterLock
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 0
+Total Time Elapsed: 31838548ns
+Average time/op: 159ns
+
+TesterSem
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 0
+Total Time Elapsed: 36876423ns
+Average time/op: 184ns
+
+TesterAtomic
+10 threads x 10000 Iterations x (add + subtract) = 200000 operations
+Error: Final counter Value: 0
+Total Time Elapsed: 10411437ns
+Average time/op: 52ns
